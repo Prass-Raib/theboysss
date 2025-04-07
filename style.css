@@ -105,3 +105,19 @@ h1, h2, h3, tombol {
   object-fit: cover;
   border-radius: 12px; 
 }
+
+@media (max-width: 768px) {
+  body {
+    padding: 20px 15px;
+  }
+  .img, .contoh-fotocuk img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  .tombol {
+    font-size: 16px;
+    padding: 14px 24px;
+    max-width: 90%;
+  }
+}
