@@ -1,8 +1,14 @@
 function tampilkanHalaman(id) {
-    document.getElementById("halaman1").style.display = "none";
-    document.getElementById("halaman2").style.display = "none";
-  document.getElementById("halaman3").style.display = "none";
-  document.getElementById("halaman4").style.display ="none";
-  document.getElementById("halaman5").style.display ="none";
-    document.getElementById(id).style.display = "block";
+  const semuaHalaman = document.querySelectorAll('[id^="halaman"]');
+  semuaHalaman.forEach(hal => {
+    hal.style.display = 'none';
+    hal.classList.remove('animasi-masuk');
+  });
+
+  const halamanTampil = document.getElementById(id);
+  halamanTampil.style.display = 'block';
+  
+  void halamanTampil.offsetWidth;
+
+  halamanTampil.classList.add('animasi-masuk');
 }
