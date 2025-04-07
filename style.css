@@ -48,6 +48,25 @@ h1, h2, h3, tombol {
     border-radius: 10px;
     font-family: 'Press Start 2P', cursive;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+.tombol:hover {
+  transform: scale(1.08) rotate(-2deg);
+  background-color: #ffeaa7;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.timbul {
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none ;
+    background: #f3e5ab;
+    color: #5d4037;
+    border-radius: 10px;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
     animation: kedip 1.5s infinite;
 }
 
