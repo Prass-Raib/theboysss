@@ -1,0 +1,109 @@
+body {
+  font-family: 'Indie Flower', cursive;
+  background:#121212;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #f3e5ab;
+  text-align: center;
+  padding: 20px;
+}
+
+h1, h2, h3, tombol {
+  font-family: 'Press Start 2P', cursive;
+} 
+.tombol {
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.p1 {
+ max-width: 700px;
+  margin: 0 auto;
+  text-align: justify;
+}
+.p2 {
+ max-width: 700px;
+  margin: 0 auto;
+  text-align: justify;
+}
+.p3 {
+  text-align: right ;
+}
+.p4 {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.gacoan {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    margin: 5px;
+}
+
+.tombol {
+    padding: 10px 20px;
+    font-size: 13px;
+    cursor: pointer;
+    border: none ;
+    background: #f3e5ab;
+    color: #5d4037;
+    border-radius: 10px;
+}
+
+.kiri { align-self: flex-start; } 
+.tengah { align-self: center; } 
+.kanan { align-self: flex-end; } 
+
+.haha {
+  margin: 10px;
+    padding: 10px;
+    background: #ffcc00 ;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  margin: 10px;
+    padding: 10px;
+    background: #ffcc00;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.wrapped-konten {
+  display: flex;
+  justify-content: center;
+  gap: 130px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.contoh-fotocuk {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+
+.contoh-fotocuk img {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.caption {
+  margin-top: 8px;
+  font-style: italic;
+  font-size: 14px;
+  text-align: center;
+}
+
+.img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px; 
+}
