@@ -48,6 +48,7 @@ h1, h2, h3, tombol {
     border-radius: 10px;
     font-family: 'Press Start 2P', cursive;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    animation: kedip 1.5s infinite;
 }
 
 .kiri { align-self: flex-start; } 
@@ -135,4 +136,9 @@ h1, h2, h3, tombol {
   .contoh-fotocuk {
     width: 90%;
   }
+}
+
+@keyframes kedip {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
 }
